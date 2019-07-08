@@ -1,3 +1,6 @@
+A Fork of the audio library to keep up to date with react native version updates, etc. 
+
+________________
 
 Record audio in iOS or Android React Native apps.
 
