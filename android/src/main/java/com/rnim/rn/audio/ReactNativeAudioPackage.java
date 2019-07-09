@@ -12,6 +12,10 @@ import java.util.List;
 
 public class ReactNativeAudioPackage implements ReactPackage {
 
+    // Deprecated RN 0.47
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
+    }
 
     /**
      * @param reactContext react application context that can be used to create modules
